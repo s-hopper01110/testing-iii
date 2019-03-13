@@ -2,7 +2,7 @@
 import React from 'react';
 import { render, fireEvent } from 'react-testing-library';
 
-import Speaker from './Speaker';
+import Dashboard from './Dashboard';
 
 describe('<Dashboard />', () => {
   it('should call the speak function passed as prop', () => {
